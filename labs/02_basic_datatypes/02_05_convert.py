@@ -1,3 +1,21 @@
+
+
+1) float(x)
+2) int(x)
+3) x = 8.848
+y = 2
+
+z = int(x//y)
+
+print(z)
+
+4) x = float(input("imput x"))
+y = float(input("imput y"))
+
+z = x*y
+
+print(z)
+
 '''
 
 Demonstrate how to:

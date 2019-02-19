@@ -1,3 +1,11 @@
+
+name = input("input name")
+
+
+
+print( name[1:]+name[:1]+ "ay")
+
+
 '''
 
 Using string slicing, take in the user's name and print out their name translated to pig latin.

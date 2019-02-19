@@ -1,3 +1,28 @@
+list = []
+i = 0
+
+while i < 10:
+    
+    list.append(int(input("input a new number")))
+        i += 1
+
+print (list)
+
+
+print (max(list))
+
+
+x = 1
+
+for number in list:
+    x *= number
+
+print (x)
+
+
+
+
+
 '''
 Take in 10 numbers from the user. Place the numbers in a list.
 Find the largest number in the list.

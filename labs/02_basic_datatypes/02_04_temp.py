@@ -1,3 +1,10 @@
+
+F = int(input("Fahrenheit degrees: "))
+
+C = round((F - 32) * (5 / 9),2)
+
+print("{} degrees fahrenheit = {} degrees celsius".format(F,C) )
+
 '''
 Fahrenheit to Celsius:
 

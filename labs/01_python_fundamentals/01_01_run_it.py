@@ -1,3 +1,13 @@
+
+1. print ("hello world")
+
+2. $ Python
+    print ("hello world")
+
+3. $python
+    60*60*24*365
+
+
 '''
 1 - Write and execute a script that prints "hello world" to the console.
 
