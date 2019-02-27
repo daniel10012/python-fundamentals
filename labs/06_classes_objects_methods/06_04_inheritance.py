@@ -16,3 +16,39 @@ your own for this exercise but if you are stuck, some ideas include:
 - A Restaurant superclass, with Gourmet and FastFood subclasses.
 
 '''
+
+from freeform import Animal
+
+class Mamal(Animal):
+
+    def __init__(self, name, speed, num_legs, cute = True):
+        super().__init__(name, speed, num_legs)
+        self.cute = cute
+
+class Ovipar(Animal):
+
+    def __init__(self,name,  speed = 30, eggs = 0 ):
+        self.name = name
+        self.speed = speed
+        self.eggs = eggs
+
+    def layeggs(self):
+        self.eggs += 2
+
+
+
+class Human(Mamal):
+    pass
+
+
+
+my_ovipar = Ovipar("Jean", 10, 0)
+
+my_ovipar.layeggs()
+
+
+my_mamal = Mamal("robert", 50, 3, True)
+
+print(my_mamal)
+
+

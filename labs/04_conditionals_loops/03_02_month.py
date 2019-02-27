@@ -4,3 +4,18 @@ Take in a number from the user and print "January", "February", ...
 or other respectively. Use a "nested-if" statement.
 
 '''
+
+def month(number):
+    if number == 1:
+        print("jan")
+    elif number == 2:
+        print("feb")
+    elif number == 3:
+        print("mar")
+    else:
+        print("other")
+
+
+number = input("imput a number")
+
+month(int(number))

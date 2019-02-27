@@ -8,3 +8,30 @@ Use a loop to print the following table to the console:
  40 41 42 43 44 45 46 47 48 49
 
 '''
+
+n= 10000
+for i in range(0,int(n/10)):
+     for j in range(0,10):
+        if i != 0:
+            print(str(i)+str(j), end=" ")
+        else:
+            print(str(j), end=" ")
+        if j ==9:
+            print("\n")
+
+
+
+
+#x = [str(i) for i in x]
+
+
+
+#b = ''.join(a)
+
+#print(b)
+
+# for i in range(0,10):
+#     for j in (0,50):
+# >>> theListOfChars = ['a', 'b', 'x', 'd', 's']
+# >>> ''.join(theListOfChars)
+# 'abxds'

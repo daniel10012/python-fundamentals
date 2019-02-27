@@ -5,7 +5,7 @@
     print ("hello world")
 
 3. $python
-    60*60*24*365
+    60*60*24*365erg
 
 
 '''

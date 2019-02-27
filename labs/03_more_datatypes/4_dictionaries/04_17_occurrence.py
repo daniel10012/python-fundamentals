@@ -6,3 +6,14 @@ user_input = "hello"
 result = {"h": 1, "e": 1, "l": 2, "o": 1}
 
 '''
+
+string = "hello"
+
+letters = list(string)
+result={}
+
+for i in letters:
+    result[i] = letters.count(i)
+
+print (result)
+
